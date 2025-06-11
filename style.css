@@ -167,7 +167,7 @@ h1 {
 .Professional {
     color: white;
     margin-top: 60px;
-    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    background: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     box-shadow: 2px 2px 7px 2px rgb(201, 200, 200);
     height: 40%;
     width: 80vw;
@@ -251,8 +251,9 @@ h1 {
 }
 
 .button1:hover {
-    background: hsl(237, 63%, 64%);
+    background: none;
     color: #fff;
+    border: 1px solid white;
 }
 
 @media(min-width:600px) {
