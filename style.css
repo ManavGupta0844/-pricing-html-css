@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: hsl(240, 78%, 98%);
+    background-image: url("./images/bg-top.svg");
+    background-repeat: no-repeat;
+    background-position: 60vw -1.8%;
+    background-size: 65vw;
+    background-position: fixed;
+}
+
+
+h1 {
+    opacity: 0.5;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+    opacity: 0.7;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70px;
+    height: 40px;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.circle {
+    margin: 0 4px;
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 5vh;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.basic {
+    font-weight: 700;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 7px 2px rgb(201, 200, 200);
+    height: 40%;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    min-height: 500px;
+    min-width: 250px;
+}
+
+.heading {
+    padding: 0px 0px 20px 0px;
+    color: hsl(233, 13%, 49%);
+    font-size: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+    font-weight: 700;
+}
+
+.dollar {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.storage {
+    width: 69%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid hsl(232, 13%, 33%);
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.users {
+    width: 69%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid hsl(232, 13%, 33%);
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.limit {
+    width: 69%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid hsl(232, 13%, 33%);
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.button {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 5vh;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: 7px;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button:hover {
+    color: hsl(237, 63%, 64%);
+    background: #fff;
+
+}
+
+.Professional {
+    color: white;
+    margin-top: 60px;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    box-shadow: 2px 2px 7px 2px rgb(201, 200, 200);
+    height: 40%;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    min-height: 500px;
+    min-width: 250px;
+}
+
+.heading1 {
+    padding: 0px 0px 20px 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.price1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+    /* opacity: 0.7; */
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    font-weight: 700;
+}
+
+.storage1 {
+    width: 69%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-weight: 700;
+    /* opacity: 0.5; */
+}
+
+.users1 {
+    width: 69%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-weight: 700;
+    /* opacity: 0.5; */
+}
+
+.limit1 {
+    width: 69%;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-weight: 700;
+
+    /* opacity: 0.5; */
+}
+
+.button1 {
+    color: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background: hsl(237, 63%, 64%);
+    color: #fff;
+}
+
+@media(min-width:600px) {
+    .basic {
+        height: 400px;
+        width: 400px;
+    }
+    .Professional {
+        height: 400px;
+        width: 400px;
+    }
+    .button{
+        width: 80%;
+    }
+    .button1{
+        width: 80%;
+    }
+}
+
+@media(min-width:1440px) {
+    .container {
+        background-image: url('./images/bg-top.svg'), url("./images/bg-bottom.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: top right, bottom left;
+        background-size: 25% auto, 30% auto;
+    }
+
+    .cards {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .basic {
+        width: 30%;
+        height: 100%;
+    }
+
+    .Professional {
+        width: 28%;
+        scale: 1.1;
+
+    }
+
+    .button {
+        width: 80%;
+        font-size: 15px;
+        letter-spacing: 0.1vw;
+    }
+
+    .button1 {
+        width: 80%;
+        font-size: 15px;
+        letter-spacing: 0.1px;
+        margin-top: 0;
+    }
+
+}
