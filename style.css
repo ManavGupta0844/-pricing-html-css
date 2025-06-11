@@ -20,8 +20,8 @@ body {
     background: hsl(240, 78%, 98%);
     background-image: url("./images/bg-top.svg");
     background-repeat: no-repeat;
-    background-position: 60vw -1.8%;
-    background-size: 65vw;
+    background-position:56vw -1.8%;
+    background-size: 80vw;
     background-position: fixed;
 }
 
