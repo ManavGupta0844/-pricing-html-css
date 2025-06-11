@@ -246,7 +246,7 @@ h1 {
     border-radius: 7px;
     font-size: 15px;
     letter-spacing: 0.1px;
-    border: 1px solid;
+    border: 0px solid;
     cursor: pointer;
 }
 
@@ -301,7 +301,7 @@ h1 {
     .button {
         width: 80%;
         font-size: 15px;
-        letter-spacing: 0.1vw;
+        letter-spacing: 0.1px;
     }
 
     .button1 {
