@@ -99,7 +99,7 @@ h1 {
     width: 80%;
     text-align: center;
     font-size: 70px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     opacity: 0.7;
     padding-bottom: 15px;
     border-bottom: 1px solid grey;
@@ -115,7 +115,7 @@ h1 {
     width: 69%;
     text-align: center;
     font-size: 17px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-bottom: 1px solid hsl(232, 13%, 33%);
     padding: 20px;
     opacity: 0.5;
@@ -125,7 +125,7 @@ h1 {
     width: 69%;
     text-align: center;
     font-size: 17px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-bottom: 1px solid hsl(232, 13%, 33%);
     padding: 20px;
     opacity: 0.5;
@@ -193,7 +193,7 @@ h1 {
     width: 80%;
     text-align: center;
     font-size: 70px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /* opacity: 0.7; */
     padding-bottom: 15px;
     border-bottom: 1px solid white;
@@ -204,7 +204,7 @@ h1 {
     width: 69%;
     text-align: center;
     font-size: 17px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-bottom: 1px solid white;
     padding: 20px;
     font-weight: 700;
@@ -215,7 +215,7 @@ h1 {
     width: 69%;
     text-align: center;
     font-size: 17px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-bottom: 1px solid white;
     padding: 20px;
     font-weight: 700;
@@ -260,14 +260,17 @@ h1 {
         height: 400px;
         width: 400px;
     }
+
     .Professional {
         height: 400px;
         width: 400px;
     }
-    .button{
+
+    .button {
         width: 80%;
     }
-    .button1{
+
+    .button1 {
         width: 80%;
     }
 }
@@ -283,7 +286,7 @@ h1 {
     .cards {
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
         width: 100%;
     }
 
@@ -291,11 +294,12 @@ h1 {
         width: 30%;
         height: 100%;
     }
-
-    .Professional {
+    .outerpro{
         width: 28%;
         scale: 1.1;
-
+    }
+    .Professional {
+        width: 100%;
     }
 
     .button {
@@ -303,12 +307,23 @@ h1 {
         font-size: 15px;
         letter-spacing: 0.1px;
     }
-
+    .storage1{
+        padding: 18px;
+    }
+    .users1{
+        padding: 18px;
+    }
+    .limit1{
+        padding: 18px;
+        margin-bottom: 25px;
+    }
     .button1 {
         width: 80%;
         font-size: 15px;
+        height: 4.7vh;
+        padding: 16px;
         letter-spacing: 0.1px;
-        margin-top: 0;
+        margin-bottom: 6px;
     }
 
 }
